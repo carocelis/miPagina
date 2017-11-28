@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  #menu{
+    display: none;
+  }
+  #menu2{
+    display: block;
+  }
+  .boot{
+    width: 50% !important;
+  }
+  .icono{
+    width: 50% !important;
+  }
+}

@@ -1,0 +1,88 @@
+body{
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+#menu, #menu2{
+  background-color: #343A40;
+}
+
+.bootstrap{
+  color: white;
+  font-family: sans-serif;
+  font-size: 200%;
+  padding-left: 5%;
+}
+
+.home, .about, .services, .contact{
+  text-align: left;
+  padding-top: 1.5%;
+}
+
+.text-home, .text-about, .text-services, .text-contact{
+  text-decoration: none;
+  color: #939393;
+  font-family: sans-serif;
+
+}
+
+.text-home:hover, .text-about:hover, .text-services:hover, .text-contact:hover{
+  color: white;
+}
+
+.container-photo{
+  background-image: url(../img/photo.jpg);
+}
+
+.business{
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  font-weight: 100;
+  padding: 11.4%;
+}
+
+.content{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #343A40;
+}
+
+.boton{
+  background-color: #007BFF;
+  color: white;
+  font-weight: lighter;
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+  margin-top: 3%;
+}
+
+.camara, .camara2, .camara3{
+  border: 0.3px solid #B2B2B2;
+  width: 300px;
+  padding: 4%;
+}
+
+.foot{
+  background-color: #343A40;
+  text-align: center;
+  color: white;
+  padding: 3%;
+}
+
+.fa-bars{
+  color: #939393;
+  border: 0.5px solid #939393;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.icono{
+  text-align: right;
+  padding-right: 8%;
+}
+#menu2{
+  display: none;
+}
